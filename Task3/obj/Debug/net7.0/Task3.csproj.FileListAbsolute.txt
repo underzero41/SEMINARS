@@ -1,0 +1,15 @@
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/Task3.csproj.AssemblyReference.cache
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/Task3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/Task3.AssemblyInfoInputs.cache
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/Task3.AssemblyInfo.cs
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/Task3.csproj.CoreCompileInputs.cache
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/bin/Debug/net7.0/Task3
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/bin/Debug/net7.0/Task3.deps.json
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/bin/Debug/net7.0/Task3.runtimeconfig.json
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/bin/Debug/net7.0/Task3.dll
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/bin/Debug/net7.0/Task3.pdb
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/Task3.dll
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/refint/Task3.dll
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/Task3.pdb
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/Task3.genruntimeconfig.cache
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task3/obj/Debug/net7.0/ref/Task3.dll
