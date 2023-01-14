@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Напишите код который на вход принимает два числа и проверяет, является ли первое число квадратом второго
+
+Console.ReadLine("Напишите первое число: ");
+Console.ReadLine("Напишите второе число: ");
+
+int number = 
