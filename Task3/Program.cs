@@ -1,7 +1,7 @@
 ﻿//Напишите программу котораю будет на ввод принимать число, а на вывод выдавать день недели.
 
 Console.Write("Введите число от 1 до 7: ");
-int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 if(number==1)
 {
 Console.Write("Понедельник");
