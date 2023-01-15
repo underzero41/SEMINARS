@@ -3,3 +3,13 @@
 /Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/obj/Debug/net7.0/Task7.AssemblyInfoInputs.cache
 /Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/obj/Debug/net7.0/Task7.AssemblyInfo.cs
 /Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/obj/Debug/net7.0/Task7.csproj.CoreCompileInputs.cache
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/bin/Debug/net7.0/Task7
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/bin/Debug/net7.0/Task7.deps.json
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/bin/Debug/net7.0/Task7.runtimeconfig.json
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/bin/Debug/net7.0/Task7.dll
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/bin/Debug/net7.0/Task7.pdb
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/obj/Debug/net7.0/Task7.dll
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/obj/Debug/net7.0/refint/Task7.dll
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/obj/Debug/net7.0/Task7.pdb
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/obj/Debug/net7.0/Task7.genruntimeconfig.cache
+/Users/kondratyevivan/Desktop/SEMINARS_TASKS/Task7/obj/Debug/net7.0/ref/Task7.dll
