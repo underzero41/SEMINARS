@@ -1,6 +1,6 @@
 ﻿// Нахождение всех четных чисел до определенного
 Console.Write("Напишите число: ");
-int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 int sum = 0; //1
 int count = 1; //2
 while (count <= number){

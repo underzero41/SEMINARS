@@ -1,7 +1,7 @@
 ﻿//Нахождение факториала
 
 Console.Write("Введите число: ");
-int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 int sum= 0;
 int count= 1;
 
