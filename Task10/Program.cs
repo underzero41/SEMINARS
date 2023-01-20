@@ -6,15 +6,10 @@
 Console.WriteLine("Input number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int number1 = number/10;
-int number2 = number1%10;
-Console.WriteLine($"{number} -> {number2}");
-    
-// if(number>=1000 && number<=99){
-//     Console.WriteLine("The number is not correct, try one more time.");
-// }
-// else{
-//     int number1 = number/10;
-//     int number2 = number1%10;
-//     Console.WriteLine($"{number} -> {number2}");
-// }
-// Не могу понять почему условие if не срабатывает, нужен фидбек
+int number2 = number1%10;    
+if(number>=1000 || number<=99){
+    Console.WriteLine("The number is not correct, try one more time.");
+}
+else{
+    Console.WriteLine($"{number} -> {number2}");
+}
