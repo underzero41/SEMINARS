@@ -4,7 +4,7 @@
 // 23432 -> да
 
 Console.Write("Input number: ");
-string number = Console.ReadLine();
+string? number = Console.ReadLine();
 
 void CheckingNumber(string number){
   if (number[0]==number[4] || number[1]==number[3]){
