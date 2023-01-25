@@ -80,3 +80,9 @@ string seriesNew = RemovingSpaces(seriesOfNumbers);
 int[] arrayOfNumbers =  ArrayOfNumbers(seriesNew);
 
 PrintArry(arrayOfNumbers);
+
+
+// Console.Write("Input 8 numbers with , : ");
+// string nums = Convert.ToString(Console.ReadLine());
+
+// Console.Write($"[{nums}]");
