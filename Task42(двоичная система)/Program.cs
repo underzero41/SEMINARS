@@ -22,6 +22,7 @@ string Perevod(int temp)
 
 string bin = Perevod(num);
 
+Console.Write($"{num} -> ");
 // tmp = 0;
 for (int i = bin.Length - 1; i >= 0; i--)
 {
