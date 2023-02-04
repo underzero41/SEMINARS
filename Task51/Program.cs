@@ -57,7 +57,4 @@ void DiogonalSumm(int [,] arr)
      Console.Write($"{sum}");
 }
     
-
-
-
 DiogonalSumm(array);
