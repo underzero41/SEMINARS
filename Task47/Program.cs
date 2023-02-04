@@ -25,23 +25,24 @@ Console.WriteLine();
 
 void CreateArrayDouble(double[,] array)
 {
-  for (int i = 0; i < m; i++)
-  {
-    for (int j = 0; j < n; j++)
+    for (int i = 0; i < m; i++)
     {
-      array[i, j] = new Random().NextDouble() * 20 - 10;
+        for (int j = 0; j < n; j++)
+        {
+            array[i, j] = new Random().NextDouble() * 20 - 10;
+        }
     }
-  }
 }
 
-void WriteArray (double[,] array){
-for (int i = 0; i < m; i++)
-  {
-      for (int j = 0; j < n; j++)
-      {
-        double alignNumber = Math.Round(array[i, j], 1);
-        Console.Write($"{alignNumber}\t");
-      }
-      Console.WriteLine();
-  }
+void WriteArray(double[,] array)
+{
+    for (int i = 0; i < m; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            double numbers = Math.Round(array[i, j], 1);
+            Console.Write($"{numbers}\t");
+        }
+        Console.WriteLine();
+    }
 }
