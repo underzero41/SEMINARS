@@ -46,8 +46,6 @@ int indexX = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input column index Y: ");
 int indexY = Convert.ToInt32(Console.ReadLine());
 
-
-
 void GetValueArray(int[,] arr)
 {
   for (int i = 0; i < arr.GetLength(0); i++)
@@ -69,5 +67,4 @@ void GetValueArray(int[,] arr)
     }
 }
   
-
 GetValueArray(array);
