@@ -32,38 +32,27 @@ void PrintArray(int[,] arr)
 int[,] DeleteLineAndColumn(int[,] arr)
 {
     int numMin = arr[0,0];
-    int numIndx1 = 0;
-    int numIndx2 = 0;
+    int minI = 0;
+    int minJ = 0;
+    int[,] arr2 = new int[arr.GetLength(0) - 1, arr.GetLength(1) - 1];
+
     for (int i = 0; i < arr.GetLength(0); i++)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         {
-            if(arr[i,j] < numMin) 
-            {
-                numMin = arr[i,j];
-                numIndx1 = i;
-                numIndx2 = j;
-            }    
+            minI = i;
+            minJ = j;
         }
     }
-    int[,] arr2 = new int[arr.GetLength(0) - 1, arr.GetLength(1) - 1];
-    for (int i = 0, k = 0; i < arr2.GetLength(0); i++, k++)
+
+    for (int k = 0; k < arr2.GetLength(0); k++)
     {
-        for (int j = 0, l = 0; j < arr2.GetLength(1); j++, l++)
+        for (int l = 0; l < arr2.GetLength(1); l++)
         {
-            if(i == numIndx1)
-            {
-                i++;
-            }
-            if(j == numIndx2)
-            {
-                j++;
-            }
-            if(i == arr.GetLength(0) || j == arr.GetLength(1))
-            {
-                continue;
-            }
-            arr2[k,l] = arr[i,j];
+            if(k >= minI && l >= minJ) arr2[k,l] = arr[k+1, l+1];
+            else if(k >= minI) arr2[k,l] = arr[k+1, l];
+            else if(l >= minJ) arr2[k,l] = arr[k, l+1];
+            else arr2[k,l] = arr[k,l];
         }
     }
     return arr2;
